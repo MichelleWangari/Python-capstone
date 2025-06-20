@@ -2,7 +2,7 @@ from pymongo import MongoClient
 import matplotlib.pyplot as plt
 
 # MongoDB connection
-client = MongoClient("mongodb+srv://michellewangari33:FQruLtRVeH7iRI6X@cluster0.ligucf1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+client = MongoClient("mongodb+srv://michellewangari937:M7RcTNYKHCU1kUnL@cluster0.o4cbyp9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 db = client["polling"]
 polls = db["polls"]
